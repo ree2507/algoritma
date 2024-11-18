@@ -73,3 +73,10 @@ if bubble_sort_time_B < quick_sort_time_B:
     print("Bubble Sort is faster for List B.")
 else:
     print("Quick Sort is faster for List B.")
+
+#Berdasarkan hasil pengujian, **Quick Sort** terbukti lebih efisien dibandingkan **Bubble Sort** untuk kedua list \( A \) dan \( B \). Hal ini 
+#disebabkan oleh perbedaan kompleksitas waktu antara kedua algoritma: Quick Sort memiliki kompleksitas rata-rata \( O(n \log n) \), sehingga mampu 
+#menangani data besar lebih cepat, sementara Bubble Sort memiliki kompleksitas \( O(n^2) \), yang membuatnya lambat terutama pada dataset yang tidak 
+#terurut seperti \( A \). Meski untuk dataset kecil perbedaan waktu mungkin tidak signifikan, Quick Sort tetap unggul karena pendekatannya yang lebih 
+#optimal dalam membagi dan menaklukkan data, sehingga lebih cocok untuk kasus sorting umum dibandingkan Bubble Sort yang cenderung digunakan hanya 
+#untuk pembelajaran atau implementasi sederhana.
