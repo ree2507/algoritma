@@ -1,1 +1,5 @@
-
+Analisis dari kedua metode sorting menunjukkan bahwa **Bubble Sort** (naive method) memiliki kompleksitas waktu terbaik \(O(n)\) saat data sudah terurut, 
+tetapi pada umumnya kinerjanya jauh lebih lambat dengan kompleksitas rata-rata \(O(n^2)\), terutama untuk data berukuran besar, karena memerlukan perbandingan 
+dan pertukaran elemen berulang kali. Sebaliknya, **Merge Sort** (conquer method) menawarkan kinerja yang konsisten dengan kompleksitas waktu \(O(n \log n)\) 
+di semua kasus, termasuk best case, karena tetap membagi dan menggabungkan elemen secara rekursif. Meskipun lebih efisien, Merge Sort memerlukan ruang tambahan 
+untuk penyimpanan sementara, berbeda dengan Bubble Sort yang berjalan secara in-place tanpa alokasi memori tambahan.
